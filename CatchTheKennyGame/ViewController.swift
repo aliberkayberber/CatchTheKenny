@@ -89,6 +89,7 @@ class ViewController: UIViewController {
         hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(hideKenny), userInfo: nil, repeats: true)
         
         hideKenny()
+        print("CatchThe")
         
         
     }
